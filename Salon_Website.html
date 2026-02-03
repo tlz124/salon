@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelier Noir – Contemporary Hair Salon</title>
+    <link rel="stylesheet" href="Salon_Website.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Fixed Video Background -->
+    <div class="video-background">
+        <video autoplay muted loop playsinline>
+            <source src="8225738-hd_1920_1080_25fps.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">ATELIER NOIR</div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="line" data-delay="0">Where Art</span>
+                <span class="line" data-delay="100">Meets</span>
+                <span class="line" data-delay="200">Elegance</span>
+            </h1>
+            <p class="hero-subtitle">Contemporary hair design for the modern individual</p>
+            <a href="#contact" class="cta-button">Book Your Experience</a>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Our Craft</span>
+                <h2 class="section-title">Services</h2>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card" data-index="0">
+                    <div class="service-number">01</div>
+                    <h3 class="service-title">Precision Cut</h3>
+                    <p class="service-description">Architectural cuts tailored to your unique structure and style. Each cut is a collaboration between artistry and precision.</p>
+                    <div class="service-price">From $85</div>
+                </div>
+
+                <div class="service-card" data-index="1">
+                    <div class="service-number">02</div>
+                    <h3 class="service-title">Color Atelier</h3>
+                    <p class="service-description">Custom color formulations using premium products. From subtle dimension to bold transformations.</p>
+                    <div class="service-price">From $120</div>
+                </div>
+
+                <div class="service-card" data-index="2">
+                    <div class="service-number">03</div>
+                    <h3 class="service-title">Styling Studio</h3>
+                    <p class="service-description">Expert styling for any occasion. From everyday elegance to special event glamour.</p>
+                    <div class="service-price">From $65</div>
+                </div>
+
+                <div class="service-card" data-index="3">
+                    <div class="service-number">04</div>
+                    <h3 class="service-title">Treatment Lab</h3>
+                    <p class="service-description">Restorative treatments using cutting-edge technology and luxury products to revitalize your hair.</p>
+                    <div class="service-price">From $95</div>
+                </div>
+
+                <div class="service-card" data-index="4">
+                    <div class="service-number">05</div>
+                    <h3 class="service-title">Bridal Suite</h3>
+                    <p class="service-description">Complete bridal hair services including trials, day-of styling, and party coordination.</p>
+                    <div class="service-price">From $250</div>
+                </div>
+
+                <div class="service-card" data-index="5">
+                    <div class="service-number">06</div>
+                    <h3 class="service-title">Consultation</h3>
+                    <p class="service-description">Personalized consultations to create your perfect hair journey. Expert advice, honest recommendations.</p>
+                    <div class="service-price">Complimentary</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Visual Portfolio</span>
+                <h2 class="section-title">Our Work</h2>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item" data-index="0">
+                    <img src="istockphoto-2145077718-612x612.webp" alt="Salon styling work">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Precision</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="1">
+                    <img src="istockphoto-2150776295-612x612.webp" alt="Professional hair washing">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Care</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="2">
+                    <img src="istockphoto-2150776419-612x612.webp" alt="Salon experience">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Luxury</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="3">
+                    <img src="premium_photo-1664528356370-a28f2f4e4db0.avif" alt="Hair styling session">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Artistry</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="4">
+                    <img src="premium_photo-1669675933969-f0e6454b439a.avif" alt="Salon atmosphere">
+                    <div class="gallery-overlay">
+                        <span class="gallery-tag">Experience</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <span class="section-label">Our Story</span>
+                    <h2 class="section-title">Crafted with Passion</h2>
+                    <div class="about-description">
+                        <p>At Atelier Noir, we believe hair design is an art form. Our team of master stylists brings years of international experience, continuous education, and unbridled creativity to every appointment.</p>
+                        <p>We've created a sanctuary where contemporary luxury meets personalized service. Each guest receives undivided attention in an atmosphere designed for relaxation and transformation.</p>
+                        <p>Our commitment extends beyond the chair—we use only premium, sustainable products and stay at the forefront of industry innovation to ensure your hair looks exceptional today and remains healthy for tomorrow.</p>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">8</div>
+                        <div class="stat-label">Master Stylists</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">5000+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <span class="section-label">Get in Touch</span>
+                    <h2 class="section-title">Visit Us</h2>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h4>Location</h4>
+                            <p>123 Design Avenue<br>Arts District, NY 10001</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Hours</h4>
+                            <p>Tuesday – Friday: 10am – 8pm<br>
+                            Saturday: 9am – 6pm<br>
+                            Sunday – Monday: Closed</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Contact</h4>
+                            <p>Phone: (555) 123-4567<br>
+                            Email: hello@ateliernoir.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required>
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" required>
+                            <label for="phone">Phone Number</label>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" required>
+                                <option value="">Select a Service</option>
+                                <option value="cut">Precision Cut</option>
+                                <option value="color">Color Atelier</option>
+                                <option value="styling">Styling Studio</option>
+                                <option value="treatment">Treatment Lab</option>
+                                <option value="bridal">Bridal Suite</option>
+                                <option value="consultation">Consultation</option>
+                            </select>
+                            <label for="service">Service</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="4" required></textarea>
+                            <label for="message">Additional Details</label>
+                        </div>
+                        <button type="submit" class="submit-button">Request Appointment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>ATELIER NOIR</h3>
+                    <p>Where art meets elegance</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram">IG</a>
+                    <a href="#" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="Pinterest">PI</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Atelier Noir. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Salon_Website.js"></script>
+</body>
+</html>
+
+
+
+
+
