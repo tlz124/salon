@@ -72,10 +72,16 @@ a {
 /* Mobile video optimization */
 @media (max-width: 768px) {
     .video-background video {
-        min-width: 100%;
-        width: 100%;
+        min-width: auto;
+        min-height: 100%;
+        width: auto;
         height: 100%;
-        object-fit: cover;
+        object-fit: contain;
+        object-position: center center;
+    }
+    
+    .video-background {
+        background: #000;
     }
 }
 
